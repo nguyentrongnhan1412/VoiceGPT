@@ -196,16 +196,16 @@ class _BottomSheetVoiceState extends State<BottomSheetVoice> {
   }
 
   Widget _buttonClear() {
-    return _buttonBase(text: 'Xóa', onPressed: _onClear, colour: Colors.red);
+    return _buttonBase(text: 'Delete', onPressed: _onClear, colour: Colors.red);
   }
 
   Widget _buttonCopy() {
     return _buttonBase(
-        text: 'Sao chép', onPressed: _onCopy, colour: Colors.blue);
+        text: 'Copy', onPressed: _onCopy, colour: Colors.blue);
   }
 
   Widget _buttonSend() {
-    return _buttonBase(text: 'Gửi', onPressed: _onSend, colour: Colors.green);
+    return _buttonBase(text: 'Send', onPressed: _onSend, colour: Colors.green);
   }
 
   Widget _buttonClose() {
